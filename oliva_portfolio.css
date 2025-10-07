@@ -1,0 +1,121 @@
+div {
+  width: 300px;
+  height: 400px;
+  padding-top: 10px;
+  border: 10px solid black;
+  margin: 100px auto;
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 8px black;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+div:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: underline;
+  text-decoration-color: brown;
+}
+
+h4 {
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.1) rotate(2deg);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+body {
+  background-color: lightseagreen;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  text-align: center;
+  margin: 10px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: brown;
+  transform: scale(1.1);
+}
+
+form {
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+form:hover {
+  transform: scale(1.02);
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  border: none;
+  background-color: brown;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: darkred;
+  transform: scale(1.05);
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.2);
+}

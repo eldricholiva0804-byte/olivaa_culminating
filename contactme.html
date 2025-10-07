@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Me</title>
+    <link rel="stylesheet" href="oliva_portfolio.css">
+    </head>
+    <body>
+        <header>
+            <h1>Contact Me</h1>
+        </header>
+        <form>
+          <label>
+            Name:
+            <input type="text" name="Name" placeholder="Surname, First Name">
+          </label>
+          <hr>
+      
+          <label>
+            Email:
+            <input type="email" name="user-email" placeholder="you@yourdomain.com">
+          </label>
+          <hr>
+          <label>
+            Contact Number:
+            <input type="tel" name="contact" placeholder="(xxx) xxx-xxxxx">
+          </label>
+          <hr>
+          <label>
+            Message:
+            <textarea name="message" rows="5" cols="30" placeholder="Text area"></textarea>
+          </label>
+          <hr>
+            <fieldset>
+              <label>
+                <input type="checkbox" name="inquiry" value="1"> Inquiry
+              </label>
+              <label>
+                <input type="checkbox" name="appointment" value="2"> For Appointment
+              </label>
+              <label>
+                <input type="checkbox" name="CS" value="3"> Customer Support
+              </label>
+              <label>
+                <input type="checkbox" name="feedback" value="4"> Feedback
+              </label>
+            </fieldset>
+            <fieldset>
+              <legend>What skills I offer?</legend>
+              <label>
+                <input type="radio" name="services" value="1"> Video Editing
+              </label>
+              <label>
+                <input type="radio" name="services" value="2"> Photography
+              </label>
+              <label>
+                <input type="radio" name="services" value="3"> Cinematography
+              </label>
+            </fieldset>
+            <hr>
+          <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </body>
+</html>
